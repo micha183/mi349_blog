@@ -1,0 +1,46 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px;
+    border-top: 7px solid black;
+}
+
+h4 {
+    font-size: larger;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+#table_header {
+    padding-bottom: 3px;
+    margin-bottom: 3px;
+}
+
+#blog {
+    margin: 40px;
+    border-top: 7px solid lightgray
+}
+
+.blog_post {
+    padding: 10px;
+    border-bottom: 2px dotted lightgray
+}
+
+[href] {
+    color: darkolivegreen
+}
+
+header {
+    border: 1px dotted darkolivegreen
+}
+
+.about_me {
+    border-top: 2px dotted lightgray;
+    border-bottom: 2px dotted lightgray
+}
+
+#contact_form {
+    border-top: 2px dotted lightgray;
+    border-bottom: 2px dotted lightgray
+}

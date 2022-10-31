@@ -4,50 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Jacob's Weblog</title>
 </head>
-
 <body>
-
     <header>
         <h1>Jacob's Weblog</h1>
         <p>Just a few blog posts and pictures</p>
         <nav>
             <ul>
-                <li><a href = "/index">Blog Posts</a></li>
-                <li><a href = "/about">About Jacob</a></li>
+                <li><a href = "index.html">Blog Posts</a></li>
+                <li><a href = "about.html">About Jacob</a></li>
+                <li><a href = "contact.html">Fill Out Contact Form</a></li>
             </ul>
         </nav>
     </header>
-
-
-
-
-    <article>
-        <h3>Mt. Bohemia</h3>
-        <h5 class = "section-heading">Jacob Michaels October 16th, 2022</h5>
-        <p><img src = "mt_bohemia.png" alt = ""></p>
-        <p>Mt. Bohemia is a beautiful ski resort located at the very top of the Keewenaw Peninsula in Michigan's UP. From where I live in East Lansing, it takes
+    <section id = "blog">
+        <article class = "blog_post">
+            <h3>Mt. Bohemia</h3>
+            <address class = "author">Jacob Michaels</address>
+            <time datetime = "10-16-2022">October 16th, 2022</time>
+            <p><img src = "mt_bohemia.png" alt = ""></p>
+            <p>Mt. Bohemia is a beautiful ski resort located at the very top of the Keewenaw Peninsula in Michigan's UP. From where I live in East Lansing, it takes
             about 8 hours to get to Mt. Bohemia, but it is worth it. What makes Mt. Bohemia so special is there are no groomers, and only 3 runs have the trees cleared
             out. Most of the skiing done here is through the trees. There is also no lodge or hotel for guests to stay at, so most either camp in their car or find a hotel
             in the nearby town, Copper Harbor. Most would be turned off by the idea of no lodge or camping in your car, but I think that makes the trip more special, because
             it is all about the skiing and having fun. The skiing does get intense. Most runs are very steep with rock drops through the dense trees. I'm used to small hills with
             no trees so this was a big surprise when I first skied here. Another great thing about Mt. Bohemia is how cheap the lift tickets are. My friends and I always
             get the season's pass every year, because you make your money back in only 1 weekend. If you enjoy skiing, I would definitely recommend checking out Mt. Bohemia.
-        </p>
-    </article>
-    <article>
-        <h3>Little Caesar's Internship</h3>
-        <h5 class = "section-heading">Jacob Michaels October 16th, 2022</h5>
-        <p><img src = "little_caesars.png" alt = ""></p>
-        <p>Over the summer, I had the great opportunity of interning at Little Caesar's doing Data Analysis at their downtown office. I was really happy that I 
-        landed this internship, as I wanted to work at an interesting company and also be able to learn a lot. I got the opportunity to work on a new project with a team
-        and presented this to stakeholders and VPs at the company. I guess they must have liked me because they extended my internship through the fall! I'm only working part time
-        and remotely, but it works out perfect because I still have time to work on school. I was able to learn a lot from the guys at Little Caesars and I continue to learn every
-        time I clock into work. This internship will also help me out with finding future work because I have something that looks great on my resume! I've been worried about what
-        I'm going to do after I graduate, as most seniors are, but this internship makes me feel more confident that I'll be able to land a job after graduating. I'm excited to see
-        what the future holds. Maybe Little Caesar's will give me an offer!
-        </p>
-    </article> 
+            </p>
+            <h4 id = "table_header">Some Places I've Skied in Michigan</h4>
+            <table id = "ski_table">
+                <tr>
+                    <th>Resort Name</th>
+                    <th>Town</th>
+                    <th>Rating (Out of 5)</th>
+                </tr>
+                <tr>
+                    <td>Mt. Holly</td>
+                    <td>Holly</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Boyne Mt.</td>
+                    <td>Gaylord</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Mt. Bohemia</td>
+                    <td>Lac La Belle</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Alpine Valley</td>
+                    <td>White Lake</td>
+                    <td>4</td>
+                </tr>
+            </table>
+        </article>
+        <article class = "blog_post">
+            <h3>Little Caesar's Internship</h3>
+            <address class = "author">Jacob Michaels</address>
+            <time datetime = "10-16-2022">October 16th, 2022</time>
+            <p><img src = "little_caesars.png" alt = ""></p>
+            <p>Over the summer, I had the great opportunity of interning at Little Caesar's doing Data Analysis at their downtown office. I was really happy that I 
+            landed this internship, as I wanted to work at an interesting company and also be able to learn a lot. I got the opportunity to work on a new project with a team
+            and presented this to stakeholders and VPs at the company. I guess they must have liked me because they extended my internship through the fall! I'm only working part time
+            and remotely, but it works out perfect because I still have time to work on school. I was able to learn a lot from the guys at Little Caesars and I continue to learn every
+            time I clock into work. This internship will also help me out with finding future work because I have something that looks great on my resume! I've been worried about what
+            I'm going to do after I graduate, as most seniors are, but this internship makes me feel more confident that I'll be able to land a job after graduating. I'm excited to see
+            what the future holds. Maybe Little Caesar's will give me an offer!
+            </p>
+        </article> 
+    </section>
 </body>
 </html>
