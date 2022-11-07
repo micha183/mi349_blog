@@ -32,12 +32,20 @@ p {
 }
 
 .sticky {
+    background: white;
     position:  -webkit-sticky;
-    top: 2;
+    position: sticky;
+    top: 0;
+}
+
+.image-float {
+    float: left;
+    margin-right: 10px;
 }
 
 header {
     border: 1px dotted darkolivegreen;
+
 }
 
 .about_me {
@@ -48,4 +56,24 @@ header {
 #contact_form {
     border-top: 2px dotted lightgray;
     border-bottom: 2px dotted lightgray
+}
+
+.header-list {
+    display: flex;
+}
+
+.header-list:nth-of-type(1) {
+    flex: 1;
+}
+
+.header-list:nth-of-type(2) {
+    flex: 2;
+}
+
+.header-list:nth-of-type(3) {
+    flex: 1;
+}
+
+li {
+    padding:30px;
 }
