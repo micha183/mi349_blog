@@ -31,8 +31,13 @@ p {
     color: darkolivegreen
 }
 
+.sticky {
+    position:  -webkit-sticky;
+    top: 2;
+}
+
 header {
-    border: 1px dotted darkolivegreen
+    border: 1px dotted darkolivegreen;
 }
 
 .about_me {
