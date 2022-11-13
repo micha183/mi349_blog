@@ -77,3 +77,16 @@ header {
 li {
     padding:30px;
 }
+
+@media (max-width: 400px) {
+    #bp1 {
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    #bp2 {
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .image-float {
+        float: top;
+        margin-right: 10px;
+    }
+}
